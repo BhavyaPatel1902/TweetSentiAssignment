@@ -1,0 +1,56 @@
+.main {
+    width: 100%;
+    height: 1000px;    
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 1em;
+    background-color: rgb(1, 181, 194);
+    color: #fff;
+}
+
+.form {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.plot{
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tweets{
+    margin-top: 10px;
+    align-items: center;
+}
+.input {
+    background-color: blueviolet;
+    height: 50px;
+    width: 400px;
+}
+
+.submit {
+  position: relative;
+  background-color: #af4caf;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid black;
+    align-self: center;
+}
+
+@media screen and (min-width: 415px){
+    .main {
+      flex-direction: row;
+    }
+}
